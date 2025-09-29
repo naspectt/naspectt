@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aurium-agency.fr/sitemap.xml

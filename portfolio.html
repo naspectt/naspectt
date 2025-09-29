@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio — Aurium Agency</title>
+    <meta
+      name="description"
+      content="Découvrez deux projets de démonstration signés Aurium Agency : Boulangerie Le Croissant Doré et Atelier Mécanique Dupont."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script async defer data-domain="aurium-agency.fr" src="https://plausible.io/js/plausible.js"></script>
+    <script defer src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script defer src="/assets/js/main.js"></script>
+  </head>
+  <body>
+    <header class="header" data-component="header">
+      <div class="container navbar">
+        <a class="logo" href="/">
+          <span aria-hidden="true">⚡</span>
+          <span>Aurium Agency</span>
+        </a>
+        <nav class="nav-links" data-nav-links>
+          <a href="/">Accueil</a>
+          <a href="/prestations.html">Prestations</a>
+          <a href="/portfolio.html" aria-current="page">Portfolio</a>
+          <a href="/tarifs.html">Tarifs</a>
+          <a href="/devis.html">Devis</a>
+          <a href="/a-propos.html">À propos</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Changer de thème">
+            <span aria-hidden="true">🌙</span>
+          </button>
+          <a class="btn btn-primary" href="/devis.html">Demander un devis</a>
+          <button class="menu-toggle" type="button" data-menu-toggle aria-label="Ouvrir le menu">
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-text fade-up" data-animate>
+            <span class="badge-pill">Portfolio</span>
+            <h1 class="hero-title">Des démos immersives pour vos futurs clients</h1>
+            <p class="hero-subtitle">
+              Ces projets fictifs illustrent notre approche : storytelling clair, design différenciant, parcours utilisateur fluide.
+            </p>
+            <a class="btn btn-secondary" href="/devis.html">Recevoir un accès complet</a>
+          </div>
+          <div class="hero-card fade-up" data-animate>
+            <div class="hero-card-content">
+              <h2>Des maquettes interactives prêtes à personnaliser</h2>
+              <p>
+                Nous concevons les maquettes sur Figma et livrons un prototype cliquable pour valider l'expérience avant développement.
+              </p>
+              <ul class="price-features">
+                <li>Branding cohérent & micro-interactions</li>
+                <li>Parcours de conversion optimisé</li>
+                <li>Contenus SEO-friendly</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <header class="section-header fade-up" data-animate>
+            <span class="section-eyebrow">Sélection</span>
+            <h2 class="section-title">Filtrez par besoin et explorez les détails</h2>
+            <p class="section-description">
+              Naviguez entre les catégories pour découvrir comment nous adaptons l'UX/UI à chaque secteur.
+            </p>
+          </header>
+          <div class="portfolio-filters" data-portfolio-filters></div>
+          <div class="portfolio-grid" data-portfolio></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="callout fade-up" data-animate>
+            <h2>Vous avez déjà un site&nbsp;?</h2>
+            <p>Nous réalisons un audit UX & performance gratuit pour identifier les leviers prioritaires.</p>
+            <a class="btn btn-primary" href="/devis.html">Demander un audit</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="logo" href="/">
+            <span aria-hidden="true">⚡</span>
+            <span>Aurium Agency</span>
+          </a>
+          <p class="section-description">
+            Création de sites vitrines, e-commerce et refontes modernes pour particuliers, commerçants et TPE/PME.
+          </p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <div class="contact-list" data-contact>
+            <a href="mailto:lucaspoullainpro@gmail.com">lucaspoullainpro@gmail.com</a>
+            <a href="tel:+33612345678">+33 6 12 34 56 78</a>
+            <span>Paris, France</span>
+          </div>
+        </div>
+        <div>
+          <h3>Navigation</h3>
+          <ul class="contact-list">
+            <li><a href="/prestations.html">Prestations</a></li>
+            <li><a href="/tarifs.html">Tarifs</a></li>
+            <li><a href="/devis.html">Demande de devis</a></li>
+            <li><a href="/mentions-legales.html">Mentions légales</a></li>
+          </ul>
+        </div>
+      </div>
+      <small>© Aurium Agency — Lucas Poullain. Tous droits réservés.</small>
+    </footer>
+  </body>
+</html>
